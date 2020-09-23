@@ -24,6 +24,7 @@ os.environ["JISHAKU_RETAIN"] = "True"
 
 @client.event
 async def on_ready():
+  #please dont do anything in on_ready ....
   game = discord.Game("Ro help")
   await client.change_presence(status=discord.Status, activity=game)
   print(f'logged in as {client.user}')
@@ -86,6 +87,7 @@ for filename in os.listdir('./cogs'):
 
 @client.command()
 async def ping(ctx):
+ """This mwthod is by Lemon. Gives ping below 0 too :)"""
  mess = await ctx.message.channel.send('🏓 Pong!')
  interval = mess.created_at - ctx.message.created_at
  value = interval.total_seconds() * 1000
@@ -133,6 +135,8 @@ async def smile(ctx):
       await ctx.send(embed=embed)
 @client.event
 async def on_message(message):
+
+# Dont mind these lol, all these code were made when i was beginner to dpy and python
  if message.content.startswith('Ro snd'):
   arg = message.content.split(' ')
   id = int(arg[2])
@@ -173,27 +177,12 @@ async def on_message(message):
      e.set_image(url=f'{link}')
      await message.channel.send(embed=e)
 
- if message.content.startswith('Ro kiss'):
-    arg = message.content.split(' ')
-    if arg[0] == 'Ro' and arg[1] == 'kiss':
-     mention = message.mentions
-     e = discord.Embed(title=f'Awww :heart_eyes: {message.author.display_name} kissed {mention[0].display_name} on lips~ ' , color = 0xdb7bff)
-     content = ['https://images-ext-2.discordapp.net/external/BJneu-PB92QOZX5IFV6ICTWbq8e90BpiJoSAxgmMfok/%3Fwidth%3D400%26height%3D225/https/images-ext-2.discordapp.net/external/3MV0SEwyPKGDzEJcy5d_ve_Tz8V6hnJP8ur-uSC1gIk/https/cdn.weeb.sh/images/HJkxXNtjZ.gif',
-     'https://media.discordapp.net/attachments/714592859478687844/716354596024352819/image0.gif', 'https://media.discordapp.net/attachments/714592859478687844/716354596531863612/image1.gif',
-     'https://media.discordapp.net/attachments/714592859478687844/716354597081579550/image2.gif','https://images-ext-2.discordapp.net/external/g1Gv_EpUzNMjjYAGudV5rLQhvJIKMIG1b_iTmRb145Q/https/cdn.nekos.life/kiss/kiss_001.gif?width=400&height=225'
-     'https://media.discordapp.net/attachments/714592859478687844/716355693229375588/image2.gif','https://images-ext-2.discordapp.net/external/dmPAB9_BQTmkpGDstMIiiyR0h4WHGcHCiWSvb-_ABdw/https/cdn.nekos.life/kiss/kiss_006.gif?width=400&height=240',
-     'https://images-ext-2.discordapp.net/external/dmPAB9_BQTmkpGDstMIiiyR0h4WHGcHCiWSvb-_ABdw/https/cdn.nekos.life/kiss/kiss_006.gif?width=400&height=240',
-     'https://images-ext-2.discordapp.net/external/Xpti1uXgr8qpw1W6GZ-NJRriZ7JDw16B_yp0p9pmWJ4/https/cdn.nekos.life/kiss/kiss_025.gif?width=400&height=166',
-     'https://images-ext-1.discordapp.net/external/vyICLfKgRk8b8gAG0U52L3hLX7HwcX_Fc2W1ANhqQA8/https/cdn.nekos.life/kiss/kiss_004.gif?width=400&height=236']
-     link = random.choice(content)
-     e.set_image(url=f'{link}')
-     await message.channel.send(embed=e)
  await client.process_commands(message)
 
 @client.command(name='logout', aliases=['shutdown'])
 @commands.is_owner()
 async def botstop(ctx):
-    print('Goodbye')
+    """Turn your bot off"""
     await ctx.send('Goodbye')
     await client.logout()
 client.run(token)

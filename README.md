@@ -5,6 +5,8 @@
 
 [![Discord Bots](https://top.gg/api/widget/706531890718310492.svg)](https://top.gg/bot/706531890718310492)
 [![Bots for Discord](https://botsfordiscord.com/api/bot/706531890718310492/widget)](https://botsfordiscord.com/bots/706531890718310492)
+
+
 [![Support Server](https://img.shields.io/discord/697029214289002536?color=%237289DA&label=Support%20Guild&logo=discord)](https://discord.gg/zMRKMMF)
 
 # Self hosting

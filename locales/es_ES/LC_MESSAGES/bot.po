@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-02 17:01+0530\n"
+"PO-Revision-Date: 2024-12-02 13:16+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Unknown\n"
+"Language: zxx\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Translation is the same as source text.
+#: bot.py:190
+msgid "{command} command is disabled in this server. "
+msgstr "Comando {command} está deshabilitado en este servidor."
+
+# Translation is the same as source text.
+#: bot.py:191
+msgid "Type `{prefix}enable {command}` to enable this command"
+msgstr "Escribe `{prefix}enable {command}` para habilitar este comando."
+
+# Translation is the same as source text. 
+#: bot.py:198
+msgid "{category} category is disabled in this server. "
+msgstr "Categoría {category} está deshabilitada en este servidor."
+
+# Translation is the same as source text.
+#: bot.py:199
+msgid "Type `{prefix}enable {category}` to enable this command "
+msgstr "Escribe `{prefix}enable {category}` para habilitar este comando."
+
+# Translation slightly varies from source text. "Blacklisted" has no direct translation, so it's been changed to "have been put on Roku's blacklist". "Spamming" has no direct translation, so it's been changed to "excess of spam".
+#: bot.py:215 bot.py:231
+msgid "{author}, You have been **Blacklisted from Roku for spamming a lot**. "
+msgstr ""
+"{author}, Has sido puesto en **la like negra de Roku por exceso de spam**"
+
+# Translation is the same as source text.
+#: bot.py:216 bot.py:232
+msgid "Please appeal at {support_server}"
+msgstr "Por favor apelar en {support_server}"
+
+# Translation slightly varies from source text. "Ratelimited" has no direct translation, so it's been changed to simply "limited". Technically, "banned" has no direct translation, however some  english terms have been adopted into the language informally and are well known throughout the internet community, so I used the "spanified" version of it. There should be no issues understanding this word, however if there is, it can be changed to "blocked" or a similar word. Please let me know!
+#: bot.py:238
+msgid ""
+"Slowdown!! You are being ratelimited. If u keep on spamming, you might get "
+"banned from the bot!"
+msgstr ""
+"¡Más despacio! Has sido limitado. Si sigues haciendo spam, ¡podrías ser "
+"baneado del bot!"

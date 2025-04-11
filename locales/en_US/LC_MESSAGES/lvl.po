@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-13 15:39+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cogs/lvl/__init__.py:21
+msgid ""
+"Reward members for talking with xp and even give roles at milestones\n"
+"    **To enable leveling, use `ro enable leveling` command.**\n"
+"    "
+msgstr ""
+
+#: cogs/lvl/__init__.py:72
+msgid "**Sorry,** Only **Server Owner** can run this command"
+msgstr ""
+
+#: cogs/lvl/__init__.py:78
+#, docstring
+msgid ""
+"\n"
+"        `{mention}` - To mention(ping) the user.\n"
+"        __Example__ {.mention}\n"
+"\n"
+"        `{user}` - Name of the user.\n"
+"        __Example__ {.user}\n"
+"\n"
+"        `{username}` Username of the user.\n"
+"        __Example:__ {.username}\n"
+"\n"
+"        `{userid}` - UserID of the user.\n"
+"        __Example:__ {.id}\n"
+"\n"
+"        `{level}` - Level of the user.\n"
+"        __Example:__ 23\n"
+"\n"
+"        `{avatar}` - Avatar of the user.\n"
+"\n"
+"        `{role.name}` - The name of the role you're giving to the user (This only works for reward messages)\n"
+"        __Example:__ @lovely-role\n"
+"          \n"
+"        `{role.mention}` - The mention (ping) of the role you're giving to the user  (This only works for reward messages)\n"
+"        __Example:__ @lovely-role\n"
+"          \n"
+"        `{role.id}` - The ID of the role you're giving to the user  (This only works for reward messages)\n"
+"        __Example:__ 1310856420320612392\n"
+"\n"
+"        "
+msgstr ""
+"\n"
+"        `{mention}` - To mention(ping) the user.\n"
+"        __Example__ {.mention}\n"
+"\n"
+"        `{user}` - Name of the user.\n"
+"        __Example__ {.user}\n"
+"\n"
+"        `{username}` Username of the user.\n"
+"        __Example:__ {.username}\n"
+"\n"
+"        `{userid}` - UserID of the user.\n"
+"        __Example:__ {.id}\n"
+"\n"
+"        `{level}` - Level of the user.\n"
+"        __Example:__ 23\n"
+"\n"
+"        `{avatar}` - Avatar of the user.\n"
+"\n"
+"        `{role.name}` - The name of the role you're giving to the user (This "
+"only works for reward messages)\n"
+"        __Example:__ @lovely-role\n"
+"          \n"
+"        `{role.mention}` - The mention (ping) of the role you're giving to "
+"the user  (This only works for reward messages)\n"
+"        __Example:__ @lovely-role\n"
+"          \n"
+"        `{role.id}` - The ID of the role you're giving to the user  (This "
+"only works for reward messages)\n"
+"        __Example:__ 1310856420320612392\n"
+"\n"
+"        "
+
+#: cogs/lvl/__init__.py:184
+#, python-brace-format
+msgid "Auto Level Roles - {lvl}"
+msgstr ""
+
+#: cogs/lvl/__init__.py:201
+msgid "Auto Level Role - Replace old roles"
+msgstr ""
+
+#: cogs/lvl/__init__.py:215
+#, python-brace-format
+msgid "**{username}** has leveled up to level {new_lvl}"
+msgstr ""
+
+#: cogs/lvl/__init__.py:245
+#, python-brace-format
+msgid "You have been given <@&{role_id}> since you have reached level {lvl}"
+msgstr ""
+
+#: cogs/lvl/__init__.py:275
+msgid "Leveling commands cannot be used in DMs"
+msgstr ""
+
+#: cogs/lvl/__init__.py:336
+msgid ""
+"Shows the server level, xp and rank of mentioned member\n"
+"        If member is not mentioned, shows authors level, rank and xp."
+msgstr ""
+
+#: cogs/lvl/__init__.py:359
+msgid "Shows server level (rank) leaderboard"
+msgstr ""
+
+#: cogs/lvl/__init__.py:363
+msgid "<a:blloading:731862370380546069> loading"
+msgstr ""
+
+#: cogs/lvl/__init__.py:394
+msgid "Set where I should send leveling messages"
+msgstr ""
+
+#: cogs/lvl/__init__.py:400
+msgid "I don't have enough permissions to send message in that channel. "
+msgstr ""
+
+#: cogs/lvl/__init__.py:401
+msgid "I require atleast `Send Messages`, `Embed Links` Permissions"
+msgstr ""
+
+#: cogs/lvl/__init__.py:406
+#, python-brace-format
+msgid "{tick} **Now I will send all levelup messages to** {channel}"
+msgstr ""
+
+#: cogs/lvl/__init__.py:415
+msgid ""
+"Makes Roku send levelup messages where they levelup\n"
+"        This is the default"
+msgstr ""
+
+#: cogs/lvl/__init__.py:421
+#, python-brace-format
+msgid "{tick} Now I will send levelup messages on the place where they levelup"
+msgstr ""
+
+#: cogs/lvl/__init__.py:436
+msgid "Settings for auto level roles"
+msgstr ""
+
+#: cogs/lvl/__init__.py:444
+msgid ""
+"Set roles I should give out to people when they level up to a specific level"
+msgstr ""
+
+#: cogs/lvl/__init__.py:447
+#, python-brace-format
+msgid "{role} is above my role, Drag my role to top to fix this issue!"
+msgstr ""
+
+#: cogs/lvl/__init__.py:451
+msgid "**Sorry,** This role is managed by discord. I can't add or remove it"
+msgstr ""
+
+#: cogs/lvl/__init__.py:459
+msgid ""
+"Whoops, You cannot add anymore roles. If u want to add, subscribe to premium."
+msgstr ""
+
+#: cogs/lvl/__init__.py:460
+msgid "Support Roku by subscribing to premium and"
+msgstr ""
+
+#: cogs/lvl/__init__.py:461
+msgid "enjoy the premuim features!"
+msgstr ""
+
+#: cogs/lvl/__init__.py:463
+msgid "Click here for more info : https://ko-fi.com/rokubot"
+msgstr ""
+
+#: cogs/lvl/__init__.py:471
+#, python-brace-format
+msgid ""
+"{tick} Done! I will be giving {role} role when they reach level **{level}**"
+msgstr ""
+
+#: cogs/lvl/__init__.py:480
+msgid "Remove levelroles from certain levels, if you have already setup."
+msgstr ""
+
+#: cogs/lvl/__init__.py:486
+msgid "No roles or levels have been added yet!"
+msgstr ""
+
+#: cogs/lvl/__init__.py:490
+msgid "Role for that level was not added before."
+msgstr ""
+
+#: cogs/lvl/__init__.py:497
+#, python-brace-format
+msgid "{tick} Done! I won't be adding any roles for level {level}"
+msgstr ""
+
+#: cogs/lvl/__init__.py:507
+msgid "Shows the levelroles that you have added"
+msgstr ""
+
+#: cogs/lvl/__init__.py:511
+msgid "No roles were added."
+msgstr ""
+
+#: cogs/lvl/__init__.py:517
+#, python-brace-format
+msgid "**{i}. Level {lvl}** - {role}\n"
+msgstr ""
+
+#: cogs/lvl/__init__.py:519
+msgid "Level Roles"
+msgstr ""
+
+#: cogs/lvl/__init__.py:525
+msgid "Setup Custom levelmessage for your lovely server!"
+msgstr ""
+
+#: cogs/lvl/__init__.py:535
+#, python-brace-format
+msgid ""
+"**{tick} Levelup Message has been set. Type `{prefix}leveltest` to test how "
+"it looks!**"
+msgstr ""
+
+#: cogs/lvl/__init__.py:545
+msgid ""
+"Test Your LevelMessage Setup!\n"
+"        You need to have role rewardonly disabled for this to work.\n"
+"        If u have enabled role rewardonly, please use `rewardtest` command."
+msgstr ""
+
+#: cogs/lvl/__init__.py:557
+#, python-brace-format
+msgid "Reward only has been enabled, please use `{prefix}rewardtest` instead"
+msgstr ""
+
+#: cogs/lvl/__init__.py:568
+msgid "Test Your Reward Message Setup!"
+msgstr ""
+
+#: cogs/lvl/__init__.py:574
+msgid "You didn't setup reward roles, please setup reward roles first"
+msgstr ""
+
+#: cogs/lvl/__init__.py:579
+msgid "This role is not a reward role"
+msgstr ""
+
+#: cogs/lvl/__init__.py:591
+msgid "Setup Custom role reward message for your lovely server!"
+msgstr ""
+
+#: cogs/lvl/__init__.py:597 cogs/lvl/__init__.py:663 cogs/lvl/__init__.py:687
+msgid "You didn't setup reward roles, please setup reward roles first."
+msgstr ""
+
+#: cogs/lvl/__init__.py:607
+#, python-brace-format
+msgid ""
+"**{tick} Reward Message has been set. Type `{prefix}rewardtest` to test how "
+"it looks!**"
+msgstr ""
+
+#: cogs/lvl/__init__.py:616
+msgid "Adds Level to the mentioned user"
+msgstr ""
+
+#: cogs/lvl/__init__.py:619
+msgid "Hey, You cannot add level more than 99"
+msgstr ""
+
+#: cogs/lvl/__init__.py:622
+msgid "Cannot add level to a bot."
+msgstr ""
+
+#: cogs/lvl/__init__.py:632
+#, python-brace-format
+msgid "{tick} Added level `{level}` for {member}**"
+msgstr ""
+
+#: cogs/lvl/__init__.py:639
+msgid ""
+"Reset the level of entire server.\n"
+"        Only Server Owner can do this and this cannot be undone"
+msgstr ""
+
+#: cogs/lvl/__init__.py:644
+#, python-brace-format
+msgid "{tick} Done! I have reset the levels of this server."
+msgstr ""
+
+#: cogs/lvl/__init__.py:654
+msgid ""
+"Change how levelroles get given out.\n"
+"        **Stack: ** When leveling up, users keep their previous levels\n"
+"        **Replace: ** When leveling up, users only keep their highest role."
+msgstr ""
+
+#: cogs/lvl/__init__.py:667
+#, python-brace-format
+msgid "{tick} Now when leveling up, users keep their previous levels"
+msgstr ""
+
+#: cogs/lvl/__init__.py:671
+#, python-brace-format
+msgid "{tick} Now when leveling up, users only keep their highest role"
+msgstr ""
+
+#: cogs/lvl/__init__.py:674
+#, python-brace-format
+msgid ""
+"**Examples :** \n"
+"`{prefix}rewardstyle stack` \n"
+"`{prefix}rewardstyle replace`"
+msgstr ""
+
+#: cogs/lvl/__init__.py:675
+msgid ""
+"Invalid Style Provided, Please provide `replace` or `stack` as argument. \n"
+msgstr ""
+
+#: cogs/lvl/__init__.py:681
+msgid "Make roku only send role reward messages."
+msgstr ""
+
+#: cogs/lvl/__init__.py:694
+#, python-brace-format
+msgid "**{tick} Now I will only send role reward messages**"
+msgstr ""
+
+#: cogs/lvl/__init__.py:696
+#, python-brace-format
+msgid "**{tick} Now I will send all levelup messages**"
+msgstr ""
+
+#: cogs/lvl/__init__.py:703
+msgid ""
+"Disable channels from giving xp for chatting in it.\n"
+"        Incase if u dont want ppl to spam in #spam or #bots channel."
+msgstr ""
+
+#: cogs/lvl/__init__.py:710
+#, python-brace-format
+msgid ""
+"You need to provide atleast one channel.\n"
+"Eg: `{prefix}{invoked_with} #spam #bots`"
+msgstr ""
+
+#: cogs/lvl/__init__.py:756
+msgid ""
+"Enable a previously disabled channel from giving xp for chatting in it.\n"
+"        Incase u dont want ppl to spam in #spam or #bots channel."
+msgstr ""
+
+#: cogs/lvl/__init__.py:763
+#, python-brace-format
+msgid ""
+"You need to provide atleast one channel.\n"
+"Eg: `{prefix}{invoked_with} #general #general-2`"
+msgstr ""

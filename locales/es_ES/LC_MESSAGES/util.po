@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-04 13:26+0530\n"
+"PO-Revision-Date: 2024-12-11 18:19+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: No linguistic content\n"
+"Language: zxx\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: es_AR\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: cogs/util/__init__.py:27
+msgid "Some useful commands that don't fit elsewhere. For eg Google, anime etc"
+msgstr ""
+"Algunos comandos útiles que no encajan en otro lado. Por ejemplo: Google, "
+"anime, etc. "
+
+#: cogs/util/__init__.py:56
+msgid "Took so long. Can't wait for you any longer, Aborting... "
+msgstr "Tardaste mucho, no puedo esperarte mas tiempo. Abortando..."
+
+#: cogs/util/__init__.py:82
+msgid "Search queries from Google"
+msgstr "Realiza un búsqueda en Google. "
+
+#: cogs/util/__init__.py:86
+msgid "No results found for this query!"
+msgstr "No se encontraron resultados para esta busqueda!"
+
+#: cogs/util/__init__.py:88
+msgid "Internal Error Occured, Come again later"
+msgstr "Error interno, vuelve más tarde. "
+
+#: cogs/util/__init__.py:95
+msgid "Search a page from wikipedia."
+msgstr "Busca una página de wikipedia."
+
+#: cogs/util/__init__.py:99
+msgid "No Pages Found"
+msgstr "No se encontraron páginas."
+
+#: cogs/util/__init__.py:108
+msgid "Takes the screenshot of the website"
+msgstr "Saca captura de pantalla del sitio web. "
+
+#: cogs/util/__init__.py:120
+msgid "Anime quotes"
+msgstr "Frases de anime"
+
+#: cogs/util/__init__.py:130
+msgid ""
+"Get Animal Pics.\n"
+"        Bring Random Animal If name is not Provided"
+msgstr ""
+"Obtiene fotos de animales. \n"
+"        Da animal al azár si no se provée el nombre. "
+
+#: cogs/util/__init__.py:142
+msgid ""
+"A todo list.\n"
+"        Helps in keeping tracking of things to do"
+msgstr ""
+"Una lista de pendientes.\n"
+"        Ayuda manteniendo un seguimiento de las cosas pendientes."
+
+#: cogs/util/__init__.py:152
+msgid "No tasks found. "
+msgstr "No se encontraron tareas."
+
+#: cogs/util/__init__.py:150
+msgid "Add a task by `{prefix}todo add`. "
+msgstr "Agrega una tarea utilizando `{prefix}todo add`. "
+
+#: cogs/util/__init__.py:151 cogs/util/__init__.py:166
+msgid "For more help on this command,type `{prefix}help todo`"
+msgstr "Para obtener más ayuda con este comando, escribe `{prefix}help todo`"
+
+#: cogs/util/__init__.py:159
+msgid ""
+"A todo list.\n"
+"        Helps in keeping tracks of tasks or things to do."
+msgstr ""
+"Una lista de pendientes. \n"
+"        Ayuda manteniendo un seguimiento de tareas o cosas pendientes. "
+
+#: cogs/util/__init__.py:165
+msgid "No tasks found. Add a task by `{prefix}todo add`. "
+msgstr "No se encontraron tareas. Agrega una tarea utilizando `{prefix}todo add`. "
+
+#: cogs/util/__init__.py:174
+msgid "Add tasks to todo list"
+msgstr "Agrega tareas a la lista de pendientes. "
+
+#: cogs/util/__init__.py:180 cogs/util/__init__.py:232
+msgid "{tick} Added the task to todo list "
+msgstr "{tick} Tarea agregada a lista de pendientes."
+
+#: cogs/util/__init__.py:187
+msgid "Add things to todo list"
+msgstr "Agrega cosas a la lista de pendientes."
+
+#: cogs/util/__init__.py:194
+msgid "You can only add 20 tasks in todo. "
+msgstr "Solo puedes agregar 20 tareas en la lista de pendientes. "
+
+#: cogs/util/__init__.py:195
+msgid "You need to be a **premium user** to add more things"
+msgstr "Necesitas ser un **miembro premium** para agregar mas cosas."
+
+#: cogs/util/__init__.py:196
+msgid "**Iron Patreon** - upto 100 todo things"
+msgstr "**Patreon Hierro** - hasta 100 cosas en lista de pendientes. "
+
+#: cogs/util/__init__.py:197 cogs/util/__init__.py:208
+msgid "**Bronze Patreon** - upto 200 todo things"
+msgstr "**Patreon Bronce** - hasta 200 cosas en lista de pedientes. "
+
+#: cogs/util/__init__.py:198
+msgid "**Silver Patreon** - upto 300 todo things"
+msgstr "**Patreon Plateado** - hasta 300 cosas en lista de pendientes. "
+
+#: cogs/util/__init__.py:199
+msgid "**Gold Patreon** - upto 400 todo things"
+msgstr "**Patreon Dorado** - hasta 400 cosas en lista de pendientes."
+
+#: cogs/util/__init__.py:200
+msgid "**Platinum Patreon** - unlimited todo things"
+msgstr "**Patreon Platino** - cantidad ilimitada de cosas en lista de pendientes. "
+
+#: cogs/util/__init__.py:201 cogs/util/__init__.py:211 
+#: cogs/util/__init__.py:220
+msgid "https://ko-fi.com/rokubot"
+msgstr "https://ko-fi.com/rokubot"
+
+#: cogs/util/__init__.py:206 cogs/util/__init__.py:216 
+#: cogs/util/__init__.py:225
+msgid "You can't add more things in todo. "
+msgstr "No puedes agregar mas cosas en la  lista de pendientes. "
+
+#: cogs/util/__init__.py:207 cogs/util/__init__.py:217 
+#: cogs/util/__init__.py:226
+msgid "You need to have a higher premium subscription to add more things"
+msgstr "Tienes que tener una suscripción premium superior para agregar mas cosas. "
+
+#: cogs/util/__init__.py:209 cogs/util/__init__.py:218
+msgid "**Gold Patreon** - upto 300 todo things"
+msgstr "**Patreon Dorado** - hasta 300 cosas en lista de pendientes"
+
+#: cogs/util/__init__.py:210 cogs/util/__init__.py:219 
+#: cogs/util/__init__.py:227
+msgid "**Diamond Patreon** - unlimited todo things"
+msgstr "**Patreon Diamante** - cantidad ilimitada de cosas en lista de pendientes. "
+
+#: cogs/util/__init__.py:228
+msgid "https://patreon.com/rokubot"
+msgstr "https://patreon.com/rokubot"
+
+#: cogs/util/__init__.py:236
+msgid "Remove things from todo list"
+msgstr "Remueve cosas de la lista de pendientes. "
+
+#: cogs/util/__init__.py:243
+msgid "You don't have any things in todo"
+msgstr "No tienes cosas en la lista de pendientes. "
+
+#: cogs/util/__init__.py:246
+msgid "{tick} Removed the task from todo list "
+msgstr "{tick} Se ha borrado la tarea de la lista de pendientes."
+
+#: cogs/util/__init__.py:253
+msgid "{tick} cleared the task from todo list "
+msgstr "{tick} Se ha borrado la tarea de la lista de pendientes."
+
+#: cogs/util/__init__.py:263
+msgid "An error occurred: {status} {reason}"
+msgstr "Ocurrió un error: {status} {reason}"
+
+#: cogs/util/__init__.py:272
+msgid ""
+"Brings Specified Subreddits.\n"
+"        Nsfw Subreddits Only works in NSFW Channels"
+msgstr ""
+"Muestra subreddits especificado.\n"
+"        Subreddits NSFW solo funcionan en canales NSFW."
+
+#: cogs/util/__init__.py:285
+msgid "No posts found with the given subreddit"
+msgstr "No se encontraron publicaciones dentro del subreddit mencionado. "
+
+#: cogs/util/__init__.py:294
+msgid "{:,.0f}% Upvotes | Posted to r/{subreddit}"
+msgstr "{:,.0f}% Upvotes | Publicado a r/{subreddit}"
+
+#: cogs/util/__init__.py:300
+msgid ""
+"Add, Subract, Multiply and Divide Numbers.\n"
+"        Usage examples:\n"
+"        1. Addition - `Ro calc 3 + 5`\n"
+"        2. subraction - `Ro calc 5 - 3`\n"
+"        3. Multiplication - `Ro calc 3 x 5` or `Ro calc 3*5`\n"
+"        4. Division - `Ro calc 20 / 5`or `Ro calc 0 ÷ 5`"
+msgstr ""
+"Suma, resta, multiplica y divide números.\n"
+"        Ejemplos:\n"
+"        1. Suma - `Ro calc 3 + 5`\n"
+"        2. Resta - `Ro calc 5 - 3`\n"
+"        3. Multiplicación - `Ro calc 3 x 5` o `Ro calc 3*5`\n"
+"        4. División - `Ro calc 20 / 5` o `Ro calc 0 ÷ 5`"
+
+#: cogs/util/__init__.py:313
+msgid "Invalid expressions was given, please try again."
+msgstr "Fueron dadas expresiones inválidas, por favor intenta nuevamente. "
+
+#: cogs/util/__init__.py:316
+msgid "Powers are not supported."
+msgstr "Poderes no son soportados."
+
+#: cogs/util/__init__.py:322
+msgid "It's Basic Maths lol! You can't divide any number with 0."
+msgstr "Son matemáticas básicas lol. No puedes dividir entre 0."
+
+#: cogs/util/__init__.py:324
+msgid "This operation breaks my memory"
+msgstr "Esta operación sobrecarga mi memoria. "
+
+#: cogs/util/__init__.py:327
+msgid ""
+"What's this question lol? please check `{prefix}help math` to see how to use "
+"this command."
+msgstr ""
+"¿Qué es esta pregunta? Lol. Por favor ve `{prefix}help math` para ver cómo "
+"utilizar este comando. "
+
+#: cogs/util/__init__.py:340
+msgid ""
+"Invalid expressions was given, please check `{prefix}help math` to see how "
+"to use this command."
+msgstr ""
+"Fue dada una expresión inválida, por favor ver `{prefix}help math` para ver "
+"cómo utilizar este comando. "
+
+#: cogs/util/__init__.py:346
+msgid "Shows colorinfo from given name or hex"
+msgstr "Muestra colorinfo del nombre o hex dado. "
+
+#: cogs/util/__init__.py:359
+msgid "Creates QR Code from the given text"
+msgstr "Crea Código QR a partir del texto dado."
+
+#: cogs/util/__init__.py:365
+msgid "Gives info on the given anime"
+msgstr "Da info sobre el anime mencionado. "
+
+#: cogs/util/__init__.py:369
+msgid "Error Occured : {reason}"
+msgstr "Ocurrió un Error: {reason}"
+
+#: cogs/util/__init__.py:372
+msgid "No Anime found with the given name"
+msgstr "No se encontró un anime con ese nombre. "
+
+#: cogs/util/__init__.py:380
+msgid "Searches urban dictionary."
+msgstr "Busca en urban dictionary"
+
+#: cogs/util/__init__.py:389
+msgid "No results found, sorry."
+msgstr "No se encontraron resultados, lo siento :("
+
+#: cogs/util/__init__.py:397
+msgid ""
+"Interactively creates a poll with the following question.\n"
+"        To vote, use reactions!\n"
+"        "
+msgstr ""
+"Crea encuesta de forma interactiva con la siguiente pregunta. \n"
+"        Reacciona para votar! "
+
+#: cogs/util/__init__.py:406 cogs/util/__init__.py:476
+msgid "Need Read Message History and Add Reactions permissions."
+msgstr ""
+"Se necesitan los permisos de leer el historial de mensajes y de añadir "
+"reacciones. "
+
+#: cogs/util/__init__.py:412
+msgid "Say poll option or {prefix}done to publish poll."
+msgstr "Di poll option o {prefix}done para publicar encuesta."
+
+#: cogs/util/__init__.py:421
+msgid "{prefix}done"
+msgstr "{prefix}hecho"
+
+#: cogs/util/__init__.py:446
+msgid "Add emotes (custom emoji) to your server"
+msgstr "Agrega emojis (emoji personalizado) a tu servidor "
+
+#: cogs/util/__init__.py:455
+msgid "Could not download file..."
+msgstr "No se pudo descargar el archivo..."
+
+#: cogs/util/__init__.py:459
+msgid ""
+"**__Emoji Added__** \n"
+"Name: {name} \n"
+"ID: {eid}"
+msgstr ""
+"**__Emoji Agregado__**\n"
+"Nombre: {name} \n"
+"ID: {eid}"
+
+#: cogs/util/__init__.py:465
+msgid ""
+"Makes a poll quickly.\n"
+"        The first argument is the question and the rest are the choices.\n"
+"        "
+msgstr ""
+"Crea la encuesta más rápido.\n"
+"        El primer argumento es la pregunta y el resto son las opciones. "
+
+#: cogs/util/__init__.py:470
+msgid "Need at least 1 question with 2 choices."
+msgstr "Se necesita por lo menos 1 pregunta con 2 opciones. "
+
+#: cogs/util/__init__.py:472
+msgid "You can only have up to 20 choices."
+msgstr "Solo puedes agregar hasta 20 opciones."
+
+#: cogs/util/__init__.py:494
+msgid "Custom Embed"
+msgstr "Incrustación Personalizada"
+
+#: cogs/util/__init__.py:501
+msgid "Creates embed from json embed."
+msgstr "Crea una incrustación a partir de un json. "
+
+#: cogs/util/__init__.py:509
+msgid "No embed found!"
+msgstr "No se encontraró el incrustado!"
+
+#: cogs/util/__init__.py:516
+msgid "Create a Custom Embed in an interactive way."
+msgstr "Crea una Incrustación Personalizada de un modo interactivo. "
+
+#: cogs/util/__init__.py:519 cogs/util/__init__.py:598
+msgid "Type `quit` to quit without making an embed."
+msgstr "Escribe `quit` para salir sin crear un incrustado. "
+
+#: cogs/util/__init__.py:520 cogs/util/__init__.py:599
+msgid "Type `done` to complete."
+msgstr "Escribe `done`  para completar."
+
+#: cogs/util/__init__.py:521 cogs/util/__init__.py:600
+msgid "Type `skip` to skip."
+msgstr "Escribe `skip` para saltear. "
+
+#: cogs/util/__init__.py:523 cogs/util/__init__.py:604
+msgid "title"
+msgstr "título "
+
+#: cogs/util/__init__.py:524 cogs/util/__init__.py:605
+msgid "description"
+msgstr "descripción"
+
+#: cogs/util/__init__.py:525 cogs/util/__init__.py:606
+msgid "color"
+msgstr "color"
+
+#: cogs/util/__init__.py:526 cogs/util/__init__.py:607
+msgid "image"
+msgstr "imagen"
+
+#: cogs/util/__init__.py:527 cogs/util/__init__.py:608
+msgid "thumbnail"
+msgstr "miniatura "
+
+#: cogs/util/__init__.py:528 cogs/util/__init__.py:609
+msgid "footer"
+msgstr "pie "
+
+#: cogs/util/__init__.py:529 cogs/util/__init__.py:610
+msgid "footer icon"
+msgstr "ícono de pie "
+
+#: cogs/util/__init__.py:530 cogs/util/__init__.py:611
+msgid "author"
+msgstr "autor "
+
+#: cogs/util/__init__.py:531 cogs/util/__init__.py:612
+msgid "author icon"
+msgstr "ícono de autor "
+
+#: cogs/util/__init__.py:539 
+msgid ""
+"What would you like the **Embed's {property}** to be? \n"
+"\n"
+"{done}\n"
+"{quit}\n"
+"{skip}"
+msgstr ""
+"¿Cómo te gustaría que sea la **{property} del Incrustado**?\n"
+"\n"
+"{done}\n"
+"{quit}\n"
+"{skip}"
+
+#: cogs/util/__init__.py:575
+msgid "quit"
+msgstr "salir"
+
+#: cogs/util/__init__.py:580 cogs/util/__init__.py:661
+msgid "OK Aborting...."
+msgstr "De acuerdo, abortando..."
+
+#: cogs/util/__init__.py:581 cogs/util/__init__.py:663
+msgid "skip"
+msgstr "saltea"
+
+#: cogs/util/__init__.py:583 cogs/util/__init__.py:665
+msgid "done"
+msgstr "hecho"
+
+#: cogs/util/__init__.py:590 cogs/util/__init__.py:674
+msgid "Color **{color}** is an invalid color or hex."
+msgstr "Color **{color}** es un color o hex inválido."
+
+#: cogs/util/__init__.py:599 cogs/util/__init__.py:683
+msgid "You have provided invalid image link."
+msgstr "Has proporcionado un enlace de imagen inválido. "
+
+#: cogs/util/__init__.py:618
+msgid "Edit the embed created by the bot."
+msgstr "Edita la incrustación creada por el bot. "
+
+#: cogs/util/__init__.py:621
+msgid "That message doesn't have an embed"
+msgstr "Ese mensaje no tiene un incrustado. "
+
+#: cogs/util/__init__.py:631
+msgid "Type `none` to leave something empty"
+msgstr "Escribe  `none` para dejar algo vacío. "
+
+
+#: cogs/util/__init__.py:649
+msgid ""
+"What would you like the **Embed's {property}** to be? \n"
+"\n"
+"{done}\n"
+"{quit}\n"
+"{skip}\n"
+"{none}"
+msgstr ""
+"¿Cómo te gustaría que sea la **{property} del Incrustado**?\n"
+"\n"
+"{done}\n"
+"{quit}\n"
+"{skip}\n"
+"{none}"
+
+#: cogs/util/__init__.py:667
+msgid "none"
+msgstr "ninguno"

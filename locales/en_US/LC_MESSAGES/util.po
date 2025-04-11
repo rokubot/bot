@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-13 18:32+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cogs/util/__init__.py:27
+msgid "Some useful commands that don't fit elsewhere. For eg Google, anime etc"
+msgstr ""
+
+#: cogs/util/__init__.py:56
+msgid "Took so long. Can't wait for you any longer, Aborting... "
+msgstr ""
+
+#: cogs/util/__init__.py:82
+msgid "Search queries from Google"
+msgstr ""
+
+#: cogs/util/__init__.py:86
+msgid "No results found for this query!"
+msgstr ""
+
+#: cogs/util/__init__.py:88
+msgid "Internal Error Occured, Come again later"
+msgstr ""
+
+#: cogs/util/__init__.py:95
+msgid "Search a page from wikipedia."
+msgstr ""
+
+#: cogs/util/__init__.py:99
+msgid "No Pages Found"
+msgstr ""
+
+#: cogs/util/__init__.py:108
+msgid "Takes the screenshot of the website"
+msgstr ""
+
+#: cogs/util/__init__.py:120
+msgid "Anime quotes"
+msgstr ""
+
+#: cogs/util/__init__.py:130
+msgid ""
+"Get Animal Pics.\n"
+"        Bring Random Animal If name is not Provided"
+msgstr ""
+
+#: cogs/util/__init__.py:142
+msgid ""
+"A todo list.\n"
+"        Helps in keeping tracking of things to do"
+msgstr ""
+
+#: cogs/util/__init__.py:152
+msgid "No tasks found. "
+msgstr ""
+
+#: cogs/util/__init__.py:153
+#, python-brace-format
+msgid "Add a task by `{prefix}todo add`. "
+msgstr ""
+
+#: cogs/util/__init__.py:154 cogs/util/__init__.py:170
+#, python-brace-format
+msgid "For more help on this command,type `{prefix}help todo`"
+msgstr ""
+
+#: cogs/util/__init__.py:163
+msgid ""
+"A todo list.\n"
+"        Helps in keeping tracks of tasks or things to do."
+msgstr ""
+
+#: cogs/util/__init__.py:169
+#, python-brace-format
+msgid "No tasks found. Add a task by `{prefix}todo add`. "
+msgstr ""
+
+#: cogs/util/__init__.py:178
+msgid "Add tasks to todo list"
+msgstr ""
+
+#: cogs/util/__init__.py:184
+#, python-brace-format
+msgid "{tick} Added the task to todo list"
+msgstr ""
+
+#: cogs/util/__init__.py:188
+msgid "Add things to todo list"
+msgstr ""
+
+#: cogs/util/__init__.py:195
+msgid "You can only add 20 tasks in todo. "
+msgstr ""
+
+#: cogs/util/__init__.py:196
+msgid "You need to be a **premium user** to add more things"
+msgstr ""
+
+#: cogs/util/__init__.py:198
+msgid "**Iron Patreon** - upto 100 todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:200 cogs/util/__init__.py:216
+msgid "**Bronze Patreon** - upto 200 todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:202
+msgid "**Silver Patreon** - upto 300 todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:204
+msgid "**Gold Patreon** - upto 400 todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:206
+msgid "**Platinum Patreon** - unlimited todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:208 cogs/util/__init__.py:222
+#: cogs/util/__init__.py:234
+msgid "https://ko-fi.com/rokubot"
+msgstr ""
+
+#: cogs/util/__init__.py:213 cogs/util/__init__.py:227
+#: cogs/util/__init__.py:239
+msgid "You can't add more things in todo. "
+msgstr ""
+
+#: cogs/util/__init__.py:214 cogs/util/__init__.py:228
+#: cogs/util/__init__.py:240
+msgid "You need to have a higher premium subscription to add more things"
+msgstr ""
+
+#: cogs/util/__init__.py:218 cogs/util/__init__.py:230
+msgid "**Gold Patreon** - upto 300 todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:220 cogs/util/__init__.py:232
+#: cogs/util/__init__.py:242
+msgid "**Diamond Patreon** - unlimited todo things"
+msgstr ""
+
+#: cogs/util/__init__.py:244
+msgid "https://patreon.com/rokubot"
+msgstr ""
+
+#: cogs/util/__init__.py:248
+#, python-brace-format
+msgid "{config.tick} Added the task to todo list "
+msgstr ""
+
+#: cogs/util/__init__.py:252
+msgid "Remove things from todo list"
+msgstr ""
+
+#: cogs/util/__init__.py:259
+msgid "You don't have any things in todo"
+msgstr ""
+
+#: cogs/util/__init__.py:262
+#, python-brace-format
+msgid "{tick} Removed the task from todo list "
+msgstr ""
+
+#: cogs/util/__init__.py:269
+#, python-brace-format
+msgid "{tick} cleared the task from todo list "
+msgstr ""
+
+#: cogs/util/__init__.py:279
+#, python-brace-format
+msgid "An error occurred: {status} {reason}"
+msgstr ""
+
+#: cogs/util/__init__.py:289
+msgid ""
+"Brings Specified Subreddits.\n"
+"        Nsfw Subreddits Only works in NSFW Channels"
+msgstr ""
+
+#: cogs/util/__init__.py:303
+msgid "No posts found with the given subreddit"
+msgstr ""
+
+#: cogs/util/__init__.py:313
+msgid "{:,.0f}% Upvotes | Posted to r/{subreddit}"
+msgstr ""
+
+#: cogs/util/__init__.py:323
+msgid ""
+"Add, Subract, Multiply and Divide Numbers.\n"
+"        Usage examples:\n"
+"        1. Addition - `Ro calc 3 + 5`\n"
+"        2. subraction - `Ro calc 5 - 3`\n"
+"        3. Multiplication - `Ro calc 3 x 5` or `Ro calc 3*5`\n"
+"        4. Division - `Ro calc 20 / 5`or `Ro calc 0 ÷ 5`"
+msgstr ""
+
+#: cogs/util/__init__.py:337
+msgid "Invalid expressions was given, please try again."
+msgstr ""
+
+#: cogs/util/__init__.py:340
+msgid "Powers are not supported."
+msgstr ""
+
+#: cogs/util/__init__.py:346
+msgid "It's Basic Maths lol! You can't divide any number with 0."
+msgstr ""
+
+#: cogs/util/__init__.py:348
+msgid "This operation breaks my memory"
+msgstr ""
+
+#: cogs/util/__init__.py:351
+#, python-brace-format
+msgid ""
+"What's this question lol? please check `{prefix}help math` to see how to use "
+"this command."
+msgstr ""
+
+#: cogs/util/__init__.py:366
+#, python-brace-format
+msgid ""
+"Invalid expressions was given, please check `{prefix}help math` to see how "
+"to use this command."
+msgstr ""
+
+#: cogs/util/__init__.py:374
+msgid "Shows colorinfo from given name or hex"
+msgstr ""
+
+#: cogs/util/__init__.py:387
+msgid "Creates QR Code from the given text"
+msgstr ""
+
+#: cogs/util/__init__.py:393
+msgid "Gives info on the given anime"
+msgstr ""
+
+#: cogs/util/__init__.py:397
+#, python-brace-format
+msgid "Error Occured : {reason}"
+msgstr ""
+
+#: cogs/util/__init__.py:400
+msgid "No Anime found with the given name"
+msgstr ""
+
+#: cogs/util/__init__.py:408
+msgid "Searches urban dictionary."
+msgstr ""
+
+#: cogs/util/__init__.py:417
+msgid "No results found, sorry."
+msgstr ""
+
+#: cogs/util/__init__.py:426
+msgid ""
+"Interactively creates a poll with the following question.\n"
+"        To vote, use reactions!\n"
+"        "
+msgstr ""
+
+#: cogs/util/__init__.py:436 cogs/util/__init__.py:506
+msgid "Need Read Message History and Add Reactions permissions."
+msgstr ""
+
+#: cogs/util/__init__.py:442
+#, python-brace-format
+msgid "Say poll option or {prefix}done to publish poll."
+msgstr ""
+
+#: cogs/util/__init__.py:451
+#, python-brace-format
+msgid "{prefix}done"
+msgstr ""
+
+#: cogs/util/__init__.py:474
+msgid "Add emotes (custom emoji) to your server"
+msgstr ""
+
+#: cogs/util/__init__.py:483
+msgid "Could not download file..."
+msgstr ""
+
+#: cogs/util/__init__.py:487
+#, python-brace-format
+msgid ""
+"**__Emoji Added__** \n"
+"Name: {name} \n"
+"ID: {eid}"
+msgstr ""
+
+#: cogs/util/__init__.py:494
+msgid ""
+"Makes a poll quickly.\n"
+"        The first argument is the question and the rest are the choices.\n"
+"        "
+msgstr ""
+
+#: cogs/util/__init__.py:500
+msgid "Need at least 1 question with 2 choices."
+msgstr ""
+
+#: cogs/util/__init__.py:502
+msgid "You can only have up to 20 choices."
+msgstr ""
+
+#: cogs/util/__init__.py:524
+msgid "Custom Embed"
+msgstr ""
+
+#: cogs/util/__init__.py:531
+msgid "Creates embed from json embed."
+msgstr ""
+
+#: cogs/util/__init__.py:539
+msgid "No embed found!"
+msgstr ""
+
+#: cogs/util/__init__.py:546
+msgid "Create a Custom Embed in an interactive way."
+msgstr ""
+
+#: cogs/util/__init__.py:549 cogs/util/__init__.py:628
+msgid "Type `quit` to quit without making an embed."
+msgstr ""
+
+#: cogs/util/__init__.py:550 cogs/util/__init__.py:629
+msgid "Type `done` to complete."
+msgstr ""
+
+#: cogs/util/__init__.py:551 cogs/util/__init__.py:630
+msgid "Type `skip` to skip."
+msgstr ""
+
+#: cogs/util/__init__.py:553 cogs/util/__init__.py:634
+msgid "title"
+msgstr ""
+
+#: cogs/util/__init__.py:554 cogs/util/__init__.py:635
+msgid "description"
+msgstr ""
+
+#: cogs/util/__init__.py:555 cogs/util/__init__.py:636
+msgid "color"
+msgstr ""
+
+#: cogs/util/__init__.py:556 cogs/util/__init__.py:637
+msgid "image"
+msgstr ""
+
+#: cogs/util/__init__.py:557 cogs/util/__init__.py:638
+msgid "thumbnail"
+msgstr ""
+
+#: cogs/util/__init__.py:558 cogs/util/__init__.py:639
+msgid "footer"
+msgstr ""
+
+#: cogs/util/__init__.py:559 cogs/util/__init__.py:640
+msgid "footer icon"
+msgstr ""
+
+#: cogs/util/__init__.py:560 cogs/util/__init__.py:641
+msgid "author"
+msgstr ""
+
+#: cogs/util/__init__.py:561 cogs/util/__init__.py:642
+msgid "author icon"
+msgstr ""
+
+#: cogs/util/__init__.py:568
+#, python-brace-format
+msgid ""
+"What would you like the **Embed's {property}** to be? \n"
+"\n"
+"{done}\n"
+"{quit}\n"
+"{skip}"
+msgstr ""
+
+#: cogs/util/__init__.py:575
+msgid "quit"
+msgstr ""
+
+#: cogs/util/__init__.py:580 cogs/util/__init__.py:661
+msgid "OK Aborting...."
+msgstr ""
+
+#: cogs/util/__init__.py:581 cogs/util/__init__.py:663
+msgid "skip"
+msgstr ""
+
+#: cogs/util/__init__.py:583 cogs/util/__init__.py:665
+msgid "done"
+msgstr ""
+
+#: cogs/util/__init__.py:590 cogs/util/__init__.py:674
+#, python-brace-format
+msgid "Color **{color}** is an invalid color or hex."
+msgstr ""
+
+#: cogs/util/__init__.py:599 cogs/util/__init__.py:683
+msgid "You have provided invalid image link."
+msgstr ""
+
+#: cogs/util/__init__.py:618
+msgid "Edit the embed created by the bot."
+msgstr ""
+
+#: cogs/util/__init__.py:621
+msgid "That message doesn't have an embed"
+msgstr ""
+
+#: cogs/util/__init__.py:631
+msgid "Type `none` to leave something empty"
+msgstr ""
+
+#: cogs/util/__init__.py:649
+#, python-brace-format
+msgid ""
+"What would you like the **Embed's {property}** to be? \n"
+"\n"
+"{done}\n"
+"{quit}\n"
+"{skip}\n"
+"{none}"
+msgstr ""
+
+#: cogs/util/__init__.py:667
+msgid "none"
+msgstr ""

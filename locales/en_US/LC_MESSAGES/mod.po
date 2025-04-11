@@ -1,0 +1,624 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-19 09:57+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cogs/mod/__init__.py:22
+msgid "Keep your server safe with advanced moderation commands."
+msgstr ""
+
+#: cogs/mod/__init__.py:36
+msgid "Moderation commands are not available in DMs"
+msgstr ""
+
+#: cogs/mod/__init__.py:62
+msgid "Auto-Unmute from temp mute"
+msgstr ""
+
+#: cogs/mod/__init__.py:69
+msgid "Auto-Unjail from temp jail"
+msgstr ""
+
+#: cogs/mod/__init__.py:125 cogs/mod/__init__.py:158
+msgid ""
+"**<a:blloading:731862370380546069> Creating the role and updating the role. "
+"This may take a while...**"
+msgstr ""
+
+#: cogs/mod/__init__.py:136
+msgid ""
+"I don't have enough permission to create muted role, please provide the "
+"required permission"
+msgstr ""
+
+#: cogs/mod/__init__.py:143
+#, python-brace-format
+msgid ""
+"I cannot find the muted role I made. It has been deleted.Use `{prefix}"
+"muterole command` and update muterole"
+msgstr ""
+
+#: cogs/mod/__init__.py:169 cogs/mod/__init__.py:186
+msgid "Creating Jail Channel"
+msgstr ""
+
+#: cogs/mod/__init__.py:175 cogs/mod/__init__.py:192 cogs/mod/__init__.py:933
+#: cogs/mod/__init__.py:935
+msgid "Permission update for jail role"
+msgstr ""
+
+#: cogs/mod/__init__.py:201
+msgid ""
+"I don't have enough permission to create jail role / channel, please provide "
+"the required permission"
+msgstr ""
+
+#: cogs/mod/__init__.py:208
+#, python-brace-format
+msgid ""
+"I cannot find the jail role I made. It has been deleted.Use `{prefix}"
+"jailrole` subcommands to fix it."
+msgstr ""
+
+#: cogs/mod/__init__.py:219
+#, python-brace-format
+msgid "You have been {action} from **{ctx.guild.name}** for `{reason}`"
+msgstr ""
+
+#: cogs/mod/__init__.py:247
+msgid "previously muted member"
+msgstr ""
+
+#: cogs/mod/__init__.py:259
+msgid "previously jailed member"
+msgstr ""
+
+#: cogs/mod/__init__.py:278
+msgid "Auto-Permission update for mute role"
+msgstr ""
+
+#: cogs/mod/__init__.py:299
+msgid "Auto-Permission update for jail role"
+msgstr ""
+
+#: cogs/mod/__init__.py:307
+msgid ""
+"Kicks a mentioned member from the server.\n"
+"        In order for this to work, the bot must have Kick Member "
+"permissions.\n"
+"        To use this command you must have Kick Members permission.\n"
+"        "
+msgstr ""
+
+#: cogs/mod/__init__.py:311 cogs/mod/__init__.py:331 cogs/mod/__init__.py:352
+#, python-brace-format
+msgid "unmentioned. Action taken by {author} (ID: {author.id})"
+msgstr ""
+
+#: cogs/mod/__init__.py:312
+msgid "kicked"
+msgstr ""
+
+#: cogs/mod/__init__.py:317
+#, python-brace-format
+msgid "**{tick} {member} was kicked**"
+msgstr ""
+
+#: cogs/mod/__init__.py:325
+msgid ""
+"Bans a user from the server.\n"
+"        You can also ban from ID to ban regardless whether they're\n"
+"        in the server or not.\n"
+"        In order for this to work, the bot must have Ban Member "
+"permissions.\n"
+"        To use this command you must have Ban Members permission.\n"
+"        "
+msgstr ""
+
+#: cogs/mod/__init__.py:333
+msgid "banned"
+msgstr ""
+
+#: cogs/mod/__init__.py:338
+#, python-brace-format
+msgid "**{tick} {user} was banned**"
+msgstr ""
+
+#: cogs/mod/__init__.py:346
+msgid ""
+"Unbans a member from the server.\n"
+"        You can pass either the ID of the banned member or the Name#Discrim\n"
+"        combination of the member. Typically the ID is easiest to use.\n"
+"        In order for this to work, the bot must have Ban Member "
+"permissions.\n"
+"        To use this command you must have Ban Members permissions.\n"
+"        "
+msgstr ""
+
+#: cogs/mod/__init__.py:356
+#, python-brace-format
+msgid "**{tick} {member.user} was unbanned**"
+msgstr ""
+
+#: cogs/mod/__init__.py:364
+msgid ""
+"Warns a member in the server\n"
+"        You can pass either ID or nickname or name#discrimin combination\n"
+"        To use this command, you must have Manage Server permissions.\n"
+"        You can check warns through `<prefix>punishments <member>`."
+msgstr ""
+
+#: cogs/mod/__init__.py:369
+#, python-brace-format
+msgid "unmentioned. Action taken by {author} (ID: {author.id}"
+msgstr ""
+
+#: cogs/mod/__init__.py:372
+#, python-brace-format
+msgid "**{tick} {member} has been warned**"
+msgstr ""
+
+#: cogs/mod/__init__.py:376
+msgid "warned"
+msgstr ""
+
+#: cogs/mod/__init__.py:381
+msgid ""
+"Clears a users warn if a user is mentioned.\n"
+"        Else it will clear entire server warns"
+msgstr ""
+
+#: cogs/mod/__init__.py:392
+#, python-brace-format
+msgid "{entity} has no warnings"
+msgstr ""
+
+#: cogs/mod/__init__.py:394
+#, python-brace-format
+msgid "{member.display_name}'s"
+msgstr ""
+
+#: cogs/mod/__init__.py:394
+msgid "server's"
+msgstr ""
+
+#: cogs/mod/__init__.py:398
+#, python-brace-format
+msgid "Are you sure u want to clear entire {txt} warnings?"
+msgstr ""
+
+#: cogs/mod/__init__.py:405 cogs/mod/__init__.py:457
+msgid "Timeout, Cannot wait for you any longer"
+msgstr ""
+
+#: cogs/mod/__init__.py:408 cogs/mod/__init__.py:460
+msgid "Cancelling...."
+msgstr ""
+
+#: cogs/mod/__init__.py:411
+#, python-brace-format
+msgid "{config.tick} Successfully cleared all warnings"
+msgstr ""
+
+#: cogs/mod/__init__.py:416
+msgid "Removes the warning with given case."
+msgstr ""
+
+#: cogs/mod/__init__.py:424 cogs/mod/__init__.py:476
+msgid "Couldn't found a warn with that Case ID"
+msgstr ""
+
+#: cogs/mod/__init__.py:425
+#, python-brace-format
+msgid "{tick} Removed the warning of case : {case_id}"
+msgstr ""
+
+#: cogs/mod/__init__.py:430
+msgid ""
+"Clears a users punish if a user is mentioned.\n"
+"        Else it will clear entire server warns"
+msgstr ""
+
+#: cogs/mod/__init__.py:442
+#, python-brace-format
+msgid "{entity} has no punishments"
+msgstr ""
+
+#: cogs/mod/__init__.py:449
+#, python-brace-format
+msgid "Are you sure u want to clear entire {txt} punishments?"
+msgstr ""
+
+#: cogs/mod/__init__.py:463
+#, python-brace-format
+msgid "{tick} Successfully cleared all punishments"
+msgstr ""
+
+#: cogs/mod/__init__.py:468
+msgid "Removes the punishment with given case."
+msgstr ""
+
+#: cogs/mod/__init__.py:478
+#, python-brace-format
+msgid "{tick} Removed the punishment with Case #{case_id}"
+msgstr ""
+
+#: cogs/mod/__init__.py:485
+msgid ""
+"Changes the slowmode of given channel.\n"
+"        If channel is not given, changes the slowmode of channel where "
+"command is run.\n"
+"        Time format 2 h, 3 m, 2 s.\n"
+"        Eg: `ro slowmode 10s`\n"
+"\n"
+"        **Note: ** To turn off slowmode, type `ro slowmode 0s`"
+msgstr ""
+
+#: cogs/mod/__init__.py:495
+#, python-brace-format
+msgid ""
+"**__Examples:__** \n"
+"`{prefix}slowmode 4h`  - sets slowmode of current channel to 4 hours.\n"
+"`{prefix}slowmode 0s`  - turns slowmode off in the current channel.\n"
+"`{prefix}slowmode #roku-channel 5s` -  sets slowmode of #roku-channel to 5 "
+"seconds.\n"
+"`{prefix}slowmode #roku-channel 0s` - turns slowmode off in #roku-channel.\n"
+msgstr ""
+
+#: cogs/mod/__init__.py:501
+#, python-brace-format
+msgid ""
+"Provided Invalid time format. h , m, s are the valid ones. \n"
+"\n"
+"{examples}"
+msgstr ""
+
+#: cogs/mod/__init__.py:504
+msgid "Provided  time is below 0 seconds. Provide something above that."
+msgstr ""
+
+#: cogs/mod/__init__.py:508
+msgid ""
+"Provided time is above 6 hours. The max time for slowmode is 6 hours "
+"(Discord limitation)"
+msgstr ""
+
+#: cogs/mod/__init__.py:513
+#, python-brace-format
+msgid "{tick} Slowmode for {channel} has turned off"
+msgstr ""
+
+#: cogs/mod/__init__.py:517
+msgid ""
+"{tick} Slowmode for {channel.mention} has been set to {humanize."
+"precisedelta(timedelta(seconds=time))}"
+msgstr ""
+
+#: cogs/mod/__init__.py:526
+msgid ""
+"See the past punishment history of a user in the server or the entire server "
+"at once.\n"
+"        Only counts punishments given out through Roku"
+msgstr ""
+
+#: cogs/mod/__init__.py:531
+msgid "Punishments of entire server"
+msgstr ""
+
+#: cogs/mod/__init__.py:534
+#, python-brace-format
+msgid "{user}'s punishments"
+msgstr ""
+
+#: cogs/mod/__init__.py:542 cogs/mod/__init__.py:585
+#, python-brace-format
+msgid "#Case {case_id} | {type}\n"
+msgstr ""
+
+#: cogs/mod/__init__.py:545 cogs/mod/__init__.py:588
+#, python-brace-format
+msgid "**User: ** {member}  (ID: {member_id})\n"
+msgstr ""
+
+#: cogs/mod/__init__.py:547 cogs/mod/__init__.py:590
+#, python-brace-format
+msgid ""
+"**Moderator: ** {mod} (ID: {mod_id})\n"
+" **Reason: ** {reason}\n"
+msgstr ""
+
+#: cogs/mod/__init__.py:558
+msgid "No punishments have been given in this server. This server looks clean!"
+msgstr ""
+
+#: cogs/mod/__init__.py:560
+msgid "No punishments found for this user. This user looks clean!"
+msgstr ""
+
+#: cogs/mod/__init__.py:570
+msgid ""
+"See a specific user's warnings or just all warnings on the entire server"
+msgstr ""
+
+#: cogs/mod/__init__.py:574
+msgid "Entire Server Warnings"
+msgstr ""
+
+#: cogs/mod/__init__.py:577
+#, python-brace-format
+msgid "{user}'s warnings"
+msgstr ""
+
+#: cogs/mod/__init__.py:601
+msgid "No warnings have been given in this server. This server looks clean!"
+msgstr ""
+
+#: cogs/mod/__init__.py:603
+msgid "No warnings have been given to this user. This user looks clean!"
+msgstr ""
+
+#: cogs/mod/__init__.py:614
+msgid ""
+"Mute users so they can no longer talk.\n"
+"        If you want to temporarily mute someone, use time after mentioning "
+"the member.\n"
+"        Note that times are in UTC.\n"
+"        Mutes stay even if they leave and rejoin.\n"
+"        Please note that servers with custom member roles that give "
+"permissions to talk will no work due to permission overwriting\n"
+"\n"
+"        The bot must have Manage Roles permission and be\n"
+"        above the muted role in the hierarchy.\n"
+"\n"
+"        To use this command you need to be higher than the\n"
+"        mute role in the hierarchy and have Manage Roles\n"
+"        permission at the server level.\n"
+"        "
+msgstr ""
+
+#: cogs/mod/__init__.py:636
+#, python-brace-format
+msgid "unmentioned. Action Mute taken by {author} (ID: {author.id})"
+msgstr ""
+
+#: cogs/mod/__init__.py:639
+#, python-brace-format
+msgid " Action Mute taken by {author} (ID: {author.id})"
+msgstr ""
+
+#: cogs/mod/__init__.py:646
+#, python-brace-format
+msgid "**{tick} {member} was muted**"
+msgstr ""
+
+#: cogs/mod/__init__.py:649
+msgid "muted"
+msgstr ""
+
+#: cogs/mod/__init__.py:652
+#, python-brace-format
+msgid "**{tick} {member} has been muted till {time}**"
+msgstr ""
+
+#: cogs/mod/__init__.py:665
+#, python-brace-format
+msgid "muted till {time}"
+msgstr ""
+
+#: cogs/mod/__init__.py:675
+msgid "Unmutes previously muted member"
+msgstr ""
+
+#: cogs/mod/__init__.py:680
+msgid "This member was not muted before"
+msgstr ""
+
+#: cogs/mod/__init__.py:682
+#, python-brace-format
+msgid "unmentioned. Action Unmute taken by {author} (ID: {author.id})"
+msgstr ""
+
+#: cogs/mod/__init__.py:689 cogs/mod/__init__.py:861
+#, python-brace-format
+msgid "**{tick} {member} was unmuted**"
+msgstr ""
+
+#: cogs/mod/__init__.py:693
+msgid "unmuted"
+msgstr ""
+
+#: cogs/mod/__init__.py:699 cogs/mod/__init__.py:870
+msgid "Configure Mute Role"
+msgstr ""
+
+#: cogs/mod/__init__.py:708
+msgid "Set muterole to an existing role"
+msgstr ""
+
+#: cogs/mod/__init__.py:712 cogs/mod/__init__.py:883
+#, python-brace-format
+msgid "{role} is above my role, Drag my role to top to fix this issue!"
+msgstr ""
+
+#: cogs/mod/__init__.py:717 cogs/mod/__init__.py:888
+msgid "**Sorry,** This role is managed by discord. I can't add or remove it"
+msgstr ""
+
+#: cogs/mod/__init__.py:724
+#, python-brace-format
+msgid "{tick} Successfully set muted role"
+msgstr ""
+
+#: cogs/mod/__init__.py:730
+msgid ""
+"Remove muterole, so that Roku don't use the muterole anymore.\n"
+"        **Note: ** If you mute someone after removing muterole, roku will "
+"create new muterole.\n"
+"        Due to this, this command has cooldown of 3 minutes"
+msgstr ""
+
+#: cogs/mod/__init__.py:735 cogs/mod/__init__.py:910
+#, python-brace-format
+msgid "{tick} Successfully deleted muted role"
+msgstr ""
+
+#: cogs/mod/__init__.py:742
+msgid ""
+"Updates Permissions of muterole for every channel.\n"
+"\n"
+"        **Note: **This command has cooldown of 3 minutes because of heavy "
+"ratelimits by Discord."
+msgstr ""
+
+#: cogs/mod/__init__.py:748 cogs/mod/__init__.py:752 cogs/mod/__init__.py:773
+msgid "No muterole found. Please create muterole before using this command"
+msgstr ""
+
+#: cogs/mod/__init__.py:754 cogs/mod/__init__.py:929
+msgid ""
+"**<a:blloading:731862370380546069> Updating the permissions.. This may take "
+"a while..**"
+msgstr ""
+
+#: cogs/mod/__init__.py:757
+msgid "Permission update for mute role"
+msgstr ""
+
+#: cogs/mod/__init__.py:760
+#, python-brace-format
+msgid "{tick} Successfully updated muted role permissions"
+msgstr ""
+
+#: cogs/mod/__init__.py:766
+msgid ""
+"Enable auto permission update for muterole.\n"
+"\n"
+"        This will make bot update muterole permission when\n"
+"        a new channel is created"
+msgstr ""
+
+#: cogs/mod/__init__.py:780
+#, python-brace-format
+msgid "{tick} Successfully turned muterole autoupdate **{status}**"
+msgstr ""
+
+#: cogs/mod/__init__.py:787
+msgid ""
+"Jail users so they can only send messages in #Jailed channel\n"
+"        If you want to temporarily jail someone, mention time after "
+"mentioning the member.\n"
+"        Note that times are in UTC.\n"
+"        Mutes stay even if they leave and rejoin.\n"
+"        Please note that servers with custom member roles that give "
+"permissions to talk will no work due to permission overwriting\n"
+"\n"
+"        The bot must have Manage Roles permission and be\n"
+"        above the Jailed role in the hierarchy.\n"
+"\n"
+"        To use this command you need to be higher than the\n"
+"        mute role in the hierarchy and have Manage Roles\n"
+"        permission at the server level.\n"
+"        "
+msgstr ""
+
+#: cogs/mod/__init__.py:809
+#, python-brace-format
+msgid "unmentioned. Action Jail taken by {author} (ID: {author.id})"
+msgstr ""
+
+#: cogs/mod/__init__.py:813
+#, python-brace-format
+msgid " Action Jail taken by {author} (ID: {author.id})"
+msgstr ""
+
+#: cogs/mod/__init__.py:820
+#, python-brace-format
+msgid "**{tick} {member} was jailed**"
+msgstr ""
+
+#: cogs/mod/__init__.py:823
+msgid "jailed"
+msgstr ""
+
+#: cogs/mod/__init__.py:826
+#, python-brace-format
+msgid "**{tick} {member} has been jailed till {time}**"
+msgstr ""
+
+#: cogs/mod/__init__.py:839
+msgid "jailed till {time}"
+msgstr ""
+
+#: cogs/mod/__init__.py:849
+msgid "Unjails previously jailed member"
+msgstr ""
+
+#: cogs/mod/__init__.py:854
+msgid "This member was not jailed before"
+msgstr ""
+
+#: cogs/mod/__init__.py:861
+#, python-brace-format
+msgid "**{tick} {member} was unjailed**"
+msgstr ""
+
+#: cogs/mod/__init__.py:879
+msgid "Set jailrole to an existing role"
+msgstr ""
+
+#: cogs/mod/__init__.py:899
+#, python-brace-format
+msgid "{tick} Successfully set jailed role"
+msgstr ""
+
+#: cogs/mod/__init__.py:905
+msgid ""
+"Remove jailrole, so that Roku don't use the jailrole anymore.\n"
+"        **Note: ** If you tried to jail someone after removing jailrole, "
+"roku will create new role.\n"
+"        Due to this, this command has cooldown of 3 minutes"
+msgstr ""
+
+#: cogs/mod/__init__.py:917
+msgid ""
+"Updates Permissions of jailrole for every channel.\n"
+"\n"
+"        **Note: **This command has cooldown of 3 minutes because of heavy "
+"ratelimits by Discord."
+msgstr ""
+
+#: cogs/mod/__init__.py:923 cogs/mod/__init__.py:927 cogs/mod/__init__.py:951
+msgid "No jailrole found. Please create jailrole before using this command"
+msgstr ""
+
+#: cogs/mod/__init__.py:938
+#, python-brace-format
+msgid "**{tick} Successfully updated jail role permissions**"
+msgstr ""
+
+#: cogs/mod/__init__.py:944
+msgid ""
+"Enable auto permission update for jailrole.\n"
+"\n"
+"        This will make bot update jailrole permission when\n"
+"        a new channel is created"
+msgstr ""
+
+#: cogs/mod/__init__.py:957
+#, python-brace-format
+msgid "{tick} Successfully turned jailrole autoupdate **{status}**"
+msgstr ""
